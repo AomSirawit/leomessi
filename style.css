@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #456990;
+}
+header{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #456990;
+    height: 100px
+    
+
+}
+.tribute{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute h3{
+    color: #114B5F;
+    text-align: center;
+    font-size: 40px;
+}
+.tribute img{
+    max-width: 100%;
+}
+.info{
+    color: #fff;
+    background-color: #456990;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 50rem;
+}
+.info h1{
+    font-size: 30px;
+    margin: 5px auto;
+}
+hr{
+    margin-top: 20px;
+    border: 3px solid #028090;
+    border-radius: 12px;
+}
+.team{
+    color: #fff;
+    background-color: #456990;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 50rem;
+}
+.team h1{
+    font-size: 30px;
+    margin: 5px auto;
+}
+.team ul li{
+    list-style-type: none;
+
+}
+.team ul p{
+    color: #9f9f9f;
+    margin: 5px auto;
+
+}
+.award{
+        color: #fff;
+        background-color: #456990;
+        text-align: center;
+        margin: 2rem auto;
+        padding: 0px 0.5rem;
+        max-width: 50rem;
+}
+.award h1{
+    font-size: 30px;
+    margin: 5px auto;
+}
+.award ul li{
+    list-style-type: none;
+    margin: 5px auto;
+}
+.thophy{
+    color: #fff;
+    background-color: #456990;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 50rem;
+}
+.thophy h1{
+    font-size: 30px;
+    margin: 5px auto;
+}
+.thophy ul li{
+    list-style-type: none;
+    margin: 5px auto;
+}
+footer{
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #b2b2b2;
+}
+footer a:hover{
+    opacity: 70%;
+}
